@@ -7,6 +7,10 @@
 
 import UIKit
 
+struct Post {
+    var title = "Пост"
+}
+
 class PostViewController: UIViewController {
     
     var postTitle: String = "Публикация"
