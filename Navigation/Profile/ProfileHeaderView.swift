@@ -86,6 +86,7 @@ class ProfileHeaderView: UIView {
           newStatus.translatesAutoresizingMaskIntoConstraints = false
           newStatus.indent(size: 10)
           newStatus.text = "Ваш статус"
+          statusTextField.alpha = 0.7
           newStatus.textColor = .black
           newStatus.font = UIFont.systemFont(ofSize: 15, weight: .regular)
           newStatus.backgroundColor = .white
